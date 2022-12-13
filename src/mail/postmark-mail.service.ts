@@ -3,9 +3,9 @@ import { MailService } from "./mail.service";
 
 
 @Injectable()
-export class SMTPMailService implements MailService{
+export class PostMarkMailService implements MailService{
 
     sendMail(): string{
-        return 'SMTP Mail'
+        return 'Postmark Mail'
     }
 }
