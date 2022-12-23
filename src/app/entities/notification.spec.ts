@@ -8,8 +8,6 @@ it('should be able to create a notification', () => {
     content: new Content('Nova solicitação de amizade'),
     category: 'social',
     recipientId: 'example',
-    createdAt: new Date()
-
   });
 
   expect(notification).toBeTruthy();
