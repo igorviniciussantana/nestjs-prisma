@@ -15,6 +15,12 @@ export class NotificationsController {
       content,
     });
 
-    return { notification }
+    return { 
+      notification: {
+        id: notification.id,
+        content: notification.content.value,
+        category: notification.category,
+        recipientId: notification.recipientId
+      } }
   }
 }
