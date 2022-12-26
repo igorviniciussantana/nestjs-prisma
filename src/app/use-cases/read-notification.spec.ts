@@ -4,7 +4,7 @@ import { makeNotification } from '@test/factories/notification-factory';
 import { InMemoryNotificationsRepository } from '@test/repositories/in-memory-notifications-repository';
 import { CancelNotification } from './cancel-notification';
 import { NotificationNotFound } from './errors/notification-not-found';
-import { ReadNotification } from './read-notifications';
+import { ReadNotification } from './read-notification';
 
 describe('Read notification', () => {
   it('should be able to read a notification', async () => {
