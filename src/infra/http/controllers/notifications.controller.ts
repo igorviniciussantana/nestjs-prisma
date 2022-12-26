@@ -27,7 +27,8 @@ export class NotificationsController {
     });
   }
 
-  async countFromRecipient() {}
+  @Get('count/from/:recipientId')
+  async countFromRecipient(@Param('recipientId') recipientId: string) {}
 
   async getFromRecipient() {}
 
